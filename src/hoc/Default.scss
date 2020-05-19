@@ -1,0 +1,55 @@
+.App {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #666666;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  color: #222;
+}
+
+.content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-grow: 1;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  flex: 0 0 auto;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  font-size: 14px;
+
+  .footer_nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      padding: 0 10px;
+      border-right: 1px solid #4b4b4b;
+
+      &:last-child {
+        border-right: 0;
+      }
+
+      a {
+        color: rgba(255, 255, 255, .5);
+
+        &:hover {
+          color: darken(#4b4b4b, 30%);
+        }
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    color: rgba(255, 255, 255, .5);
+  }
+}

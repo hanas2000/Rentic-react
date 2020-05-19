@@ -1,0 +1,35 @@
+.link {
+
+    span{
+      color: white;
+    }
+
+    .signup-link {
+        color: white;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    font-family: Poppins;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #222;
+    font-weight: bold; 
+    position: relative;
+    text-align: center;
+}
+
+.error-message{
+    text-align: center;
+    display: none;
+    font-weight:bold;
+    color: red;
+}
+
+.exists{
+    padding-top:20px;
+    text-align: center;
+    display: none;
+    font-weight:bold;
+    color: red;
+}
