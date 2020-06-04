@@ -53,7 +53,7 @@ class CarNode extends React.Component {
                             <ul>
                                 {this.renderFeatures()}
                             </ul>
-                            <h4 className="price">Price: {this.props.car.price}$</h4>
+                            <h5 className="price">Price: {this.props.car.price}$</h5>
                             <button type="submit" className="btn btn-success btn-block rent" onClick={() => {
                                 this.rentCar(this.props.car)
                             }}>RENT CAR
